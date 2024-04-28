@@ -1,0 +1,53 @@
+.about__wrapper {
+  margin-bottom: 110px;
+  .about__section {
+    display: flex;
+    align-items: center;
+    gap: 98px;
+    .about__section-info {
+      h3 {
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        color: #dc780b;
+      }
+      h2 {
+        font-family: Philosopher;
+        font-size: 31.25px;
+        font-weight: 700;
+        line-height: 40.63px;
+        text-align: left;
+        color: #150c01;
+        margin-top: 10px;
+        margin-bottom: 30px;
+      }
+      p {
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        color: #150c01a2;
+        margin-bottom: 30px;
+      }
+      button {
+        padding: 12px 32px;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 18.75px;
+        text-align: left;
+        color: #fff;
+        border-radius: 5px;
+        background-color: #dc780b;
+        border: 2px solid #dc780b;
+        transition: 0.3s;
+        &:hover {
+          background-color: #fff;
+          color: #dc780b;
+        }
+      }
+    }
+  }
+}

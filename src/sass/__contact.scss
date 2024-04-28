@@ -1,0 +1,64 @@
+.contact__wrapper {
+  padding-top: 115px;
+  padding-bottom: 115px;
+  background-color: #fbf2e7;
+  .contact__title {
+    width: 750px;
+    margin: 0 auto;
+    margin-bottom: 45px;
+    h3 {
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 18.75px;
+      letter-spacing: 0.2em;
+      text-align: center;
+      color: #dc780b;
+    }
+    h2 {
+      font-family: Philosopher;
+      font-size: 31.25px;
+      font-weight: 700;
+      line-height: 40.6px;
+      text-align: center;
+      color: #150c01;
+      margin-top: 15px;
+    }
+  }
+  .contact_search {
+    width: 750px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin: 0 auto;
+    transition: 0.3s;
+    &:hover {
+      box-shadow: 6px 3px 3px 3px #d0c4b6;
+    }
+    input {
+      width: 100%;
+      border: none;
+      padding: 20px 30px;
+      border-radius: 10px;
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 40.6px;
+      text-align: left;
+      color: rgba(0, 0, 0, 0.726);
+    }
+    button {
+      border-radius: 10px;
+      background: #dc780b;
+      font-family: Roboto;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 40.6px;
+      text-align: center;
+      color: #fff;
+      padding: 30px 55px;
+    }
+  }
+}

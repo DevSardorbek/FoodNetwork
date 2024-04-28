@@ -1,0 +1,126 @@
+body[data-aos-duration="4000"] [data-aos],
+[data-aos][data-aos][data-aos-duration="4000"] {
+  transition-duration: 4000ms;
+}
+.menu__wrapper {
+  margin-bottom: 115px;
+  .menu__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 748px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    h3 {
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: 0.2em;
+      color: #dc780b;
+    }
+    h2 {
+      font-family: Philosopher;
+      font-size: 31.25px;
+      font-weight: 700;
+      line-height: 24px;
+      text-align: left;
+      color: #150c01;
+      margin-top: 10px;
+      margin-bottom: 25px;
+    }
+    p {
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      color: #150c01a3;
+      text-align: center;
+    }
+  }
+  .menu__cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    .menu_card {
+      width: 360px;
+      border: 1px solid #0000001a;
+      border-radius: 75px 10px 10px 10px;
+      transition: 0.4s;
+      &:hover {
+        transform: scale(1.07);
+      }
+      img {
+        &:nth-child(1) {
+          width: 100%;
+        }
+      }
+      .card_info {
+        padding: 25px;
+        .card_title {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          h3 {
+            font-family: Philosopher;
+            font-size: 25px;
+            font-weight: 700;
+            line-height: 24px;
+            text-align: left;
+            color: #150c01;
+          }
+        }
+        p {
+          font-family: Roboto;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+          text-align: left;
+          color: #150c0197;
+          margin: 20px 0;
+        }
+        .card_rating {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          button {
+            color: #fff;
+            padding: 6px 14px;
+            background-color: #dc780b;
+            border-radius: 5px;
+            font-size: 30px;
+            border: 2px solid #dc780b;
+            transition: 0.3s;
+            &:hover {
+              background-color: #fff;
+              color: #dc780b;
+            }
+          }
+        }
+      }
+    }
+  }
+  .btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    button {
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 18.75px;
+      text-align: left;
+      color: #dc780b;
+      border: 1px solid #f8f2ec;
+      border-radius: 5px;
+      padding: 12px 30px;
+      background: transparent;
+      transition: 0.3s;
+      &:hover {
+        border: 1px solid #dc780b;
+      }
+    }
+  }
+}

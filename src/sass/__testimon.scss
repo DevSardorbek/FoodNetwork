@@ -1,0 +1,69 @@
+.testimon__wrapper {
+  margin-bottom: 120px;
+  .testimon__title {
+    width: 750px;
+    margin: 73px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h3 {
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: 0.2em;
+      text-align: center;
+      color: #dc780b;
+    }
+    h2 {
+      font-family: Philosopher;
+      font-size: 31.25px;
+      font-weight: 700;
+      line-height: 24px;
+      text-align: left;
+      margin-top: 12px;
+      margin-bottom: 24px;
+    }
+    p {
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: center;
+      color: rgba(0, 0, 0, 0.645);
+    }
+  }
+  .testimon__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 510px;
+    margin: 0 auto;
+    p {
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: center;
+      margin-top: 42px;
+      margin-bottom: 20px;
+    }
+    h3 {
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 18.75px;
+      text-align: center;
+      margin-top: 32px;
+      margin-bottom: 6px;
+    }
+    h4 {
+      font-family: Roboto;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 14.06px;
+      text-align: left;
+      color: rgba(0, 0, 0, 0.618);
+    }
+  }
+}
